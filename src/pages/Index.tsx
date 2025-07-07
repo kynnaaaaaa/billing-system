@@ -133,7 +133,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-red-50 via-yellow-50 to-red-100">
       {/* Animated Header */}
       <div className="bg-gradient-to-r from-red-600 via-red-700 to-red-800 text-white py-8 shadow-2xl relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23ffffff" fill-opacity="0.1"%3E%3Cpath d="M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243L8.2 0H5.373zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657l1.414 1.414L13.857 0H11.03z"/%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243L8.2 0H5.373zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657l1.414 1.414L13.857 0H11.03z\"/%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center">
             <div className="flex items-center justify-center gap-4 mb-4">

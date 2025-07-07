@@ -38,7 +38,7 @@ const BillReceipt: React.FC<BillReceiptProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 animate-fade-in">
       <Card className="max-w-md w-full max-h-[90vh] overflow-y-auto bg-white shadow-2xl animate-scale-in">
         <CardHeader className="bg-gradient-to-r from-red-600 to-red-700 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23ffffff" fill-opacity="0.1"%3E%3Cpath d="M20 20c0 11.046-8.954 20-20 20v20h40V20H20z"/%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M20 20c0 11.046-8.954 20-20 20v20h40V20H20z\"/%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
           <div className="relative z-10">
             <div className="text-6xl mb-2">🍔</div>
             <CardTitle className="text-2xl font-bold">McDonald's</CardTitle>
