@@ -38,10 +38,10 @@ const BillReceipt: React.FC<BillReceiptProps> = ({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 animate-fade-in">
       <Card className="max-w-md w-full max-h-[90vh] overflow-y-auto bg-white shadow-2xl animate-scale-in">
         <CardHeader className="bg-gradient-to-r from-red-600 to-red-700 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M20 20c0 11.046-8.954 20-20 20v20h40V20H20z\"/%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+          <div className="absolute inset-0 opacity-20 bg-gradient-to-br from-white/10 to-transparent"></div>
           <div className="relative z-10">
             <div className="text-6xl mb-2">🍔</div>
-            <CardTitle className="text-2xl font-bold">McDonald's</CardTitle>
+            <CardTitle className="text-2xl font-bold">McDonald's Bill Buddy</CardTitle>
             <p className="text-red-100">I'm Lovin' It!</p>
           </div>
         </CardHeader>
@@ -118,7 +118,7 @@ const BillReceipt: React.FC<BillReceiptProps> = ({
           <div className="bg-red-50 p-3 rounded-lg text-center">
             <div className="flex items-center justify-center gap-2 mb-1">
               <Phone className="w-4 h-4 text-red-600" />
-              <span className="text-sm font-semibold text-red-700">McDonald's Downtown</span>
+              <span className="text-sm font-semibold text-red-700">McDonald's Bill Buddy</span>
             </div>
             <p className="text-xs text-gray-600">Thank you for choosing McDonald's!</p>
             <p className="text-xs text-red-600 font-bold mt-1">🍟 I'm Lovin' It! 🍟</p>
