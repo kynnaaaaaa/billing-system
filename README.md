@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# 🍔 McDonald's Bill Buddy
 
-## Project info
+**Bill Buddy** is a responsive and visually engaging McDonald's-style billing web app. It replicates the look and feel of a real self-order kiosk at a McDonald's outlet, allowing users to select food and beverage items, input quantities, choose a payment method, and generate a clean itemized bill.
 
-**URL**: https://lovable.dev/projects/b7806f82-93f0-45c9-ad4f-d7bf64223c59
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🧾 Real-time billing for food & beverages  
+- 🍔 Food section: Burger, Fries, Pizza Puff, McVeggie Wrap, Cheese Nuggets  
+- 🥤 Beverage section: Cold Drink, Iced Tea, Coffee, McFlurry  
+- 📸 High-quality food images with hover/floating animations  
+- 🔢 Quantity selectors with validation  
+- 💳 Payment method options (Cash, Card, UPI)  
+- 📄 Dynamic bill generation on a separate page  
+- 🙏 Thank-you screen with final summary  
+- 📱 Fully responsive design (desktop + mobile)  
+- 🎨 McDonald's brand theme using red, yellow, and white  
+- ⚙️ Clean UI built using HTML, CSS3 (with animations), and JavaScript
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b7806f82-93f0-45c9-ad4f-d7bf64223c59) and start prompting.
+## 🌐 Live Demo
 
-Changes made via Lovable will be committed automatically to this repo.
+Coming soon — or open `index.html` in your browser manually for now.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Animations with CSS keyframes
+- Responsive design with Flexbox and media queries
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📸 Screenshots
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> *(Insert screenshots of homepage, food cards, bill page, thank you message, etc.)*
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧠 How It Works
 
-**Edit a file directly in GitHub**
+1. User selects items from food & beverages sections.
+2. Enters quantity for each item.
+3. Chooses a payment method (Cash/Card/UPI).
+4. Clicks "Generate Bill" → Redirects to a separate bill page.
+5. The bill page displays selected items, total amount, tax (if added), and a thank-you message with fun animations.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📁 Folder Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+mcdonalds-bill-buddy/
+│
+├── index.html # Main ordering page
+├── bill.html # Final bill + thank you page
+├── style.css # All styling and responsive design
+├── script.js # Core JavaScript for billing logic
+├── /images/ # Food and drink images
+└── README.md # Project info (you're reading it!)
 
-## What technologies are used for this project?
+yaml
+Copy
+Edit
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## ✨ Upcoming Features
 
-## How can I deploy this project?
+- 🔔 Sound effect on bill generation
+- 📱 Mobile app version (React Native)
+- 🌍 Hosted version (Vercel/Netlify)
+- 🧾 Downloadable PDF bill
 
-Simply open [Lovable](https://lovable.dev/projects/b7806f82-93f0-45c9-ad4f-d7bf64223c59) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🙌 Acknowledgements
 
-Yes, you can!
+- Inspired by McDonald’s ordering kiosks
+- Food images from [Pixabay](https://pixabay.com) and [Pexels](https://pexels.com)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 👩‍💻 Author
+
+**Kyna Sood**  
+Building fun, beginner-friendly interactive websites — like this one 🍟
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
