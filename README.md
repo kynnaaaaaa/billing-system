@@ -34,13 +34,9 @@ Coming soon — or open `index.html` in your browser manually for now.
 - Animations with CSS keyframes
 - Responsive design with Flexbox and media queries
 
----
 
-## 📸 Screenshots
 
-> *(Insert screenshots of homepage, food cards, bill page, thank you message, etc.)*
 
----
 
 ## 🧠 How It Works
 
